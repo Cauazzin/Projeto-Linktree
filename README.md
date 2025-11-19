@@ -1,89 +1,75 @@
-Projeto 01 - Página de "Link na Bio"
+🌐 Link na Bio - Projeto Front-End
 
-Este é o primeiro projeto do curso de nivelamento em Front-End, desenvolvido com o objetivo de praticar HTML5, CSS3 e introdução ao JavaScript, criando uma página simples, funcional e elegante no estilo Linktree.
+
+
+
+Uma página de links personalizada, no estilo Linktree, criada como projeto inicial do curso de nivelamento em Front-End. Inclui uma página de contato e uma interface responsiva e moderna.
 
 🚀 Sobre o Projeto
 
-O projeto consiste em uma página de links personalizada que funciona como um cartão de visitas digital. Nela, o usuário encontra uma foto de perfil, nome, botões para redes sociais, repositórios e uma página de contato.
+O projeto funciona como um cartão de visitas digital, contendo:
 
-Também foi criada uma segunda página, chamada Contato, com um formulário simples para envio de mensagens.
-O site possui design limpo, responsivo e utiliza boas práticas de organização e acessibilidade.
+Foto de perfil
 
-🛠️ Tecnologias Utilizadas
-HTML5
+Nome do desenvolvedor
 
-Estrutura semântica e de fácil manutenção.
+Botões para LinkedIn, GitHub e portfólios
 
-Navegação simples entre páginas: index.html e contato.html.
+Página de contato com formulário simples
 
-CSS3
+O layout é minimalista, totalmente responsivo e segue boas práticas de HTML5, CSS3 e JavaScript.
 
-Layout centralizado utilizando Flexbox.
+🛠️ Tecnologias
 
-Cores suaves e visual minimalista.
+HTML5 – Estrutura semântica e acessível
 
-Estilo totalmente responsivo.
+CSS3 – Flexbox, responsividade, variáveis e design moderno
 
-Paleta consistente utilizando:
-
-Bordas arredondadas,
-
-Sombras leves,
-
-Tipografia moderna com Poppins.
-
-Estilização independente no arquivo style.css.
-
-JavaScript
-
-Pequena animação ao carregar a página usando o arquivo script.js:
-
-Transição suave de opacidade ao entrar no site.
+JavaScript – Pequena animação de entrada da página
 
 📁 Estrutura do Projeto
 /
-├── index.html
-├── contato.html
+├── index.html        # Página principal com links
+├── contato.html      # Página de contato
 ├── assets/
-│   ├── style.css
-│   ├── script.js
-│   └── foto-caua.jpg
+│   ├── style.css     # Estilos
+│   ├── script.js     # Animação simples
+│   └── foto-caua.jpg # Foto de perfil
 
 💻 Como Executar
 
-Faça o clone deste repositório:
+Clone o repositório:
 
 git clone <url-do-repositorio>
 
 
-Abra o arquivo index.html em seu navegador.
-
-O projeto não necessita de dependências externas ou instalação adicional.
+Abra o arquivo index.html no navegador.
+Não há dependências externas.
 
 📱 Responsividade
 
-A interface foi projetada para adaptar-se automaticamente a diferentes tamanhos de tela, funcionando perfeitamente em:
+O projeto é compatível com:
 
 Smartphones
 
 Tablets
 
-Laptops
+Computadores e laptops
 
-Monitores maiores
+✨ Funcionalidades
 
-✨ Recursos Extras
+Transição suave ao carregar a página
 
-Animação suave ao carregar.
+Botões interativos com hover
 
-Página de contato com formulário estilizado.
+Página de contato com formulário
 
-Link de retorno entre páginas.
-
-Layout visual moderno com cores agradáveis e UX intuitiva.
+Link de retorno entre páginas
 
 👨‍💻 Autor
 
 Cauã Ferreira Santos
+Desenvolvido como parte do aprendizado em Front-End
+© 2025
 Desenvolvido como parte do processo de aprendizado e evolução no desenvolvimento Front-End.
 © 2025
