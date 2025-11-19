@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fundo azul clarinho */
+body {
+    background: #e9f3ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Card central */
+.container {
+    background: #fff;
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+/* Foto */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0099ff;
+}
+
+/* Nome */
+.name {
+    font-size: 1.6rem;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Área dos links */
+.links {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Botões */
+.btn {
+    background: #0099ff;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.25s;
+    width: 100%;
+    display: block;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: #007acc;
+    transform: translateY(-2px);
+}
+
+/* Rodapé centralizado */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+/* Página de contato */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    padding: 12px;
+    background: #0099ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.contact-form button:hover {
+    background: #007acc;
+}
+
+.back {
+    display: block;
+    margin-top: 25px;
+    color: #0099ff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+
