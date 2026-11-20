@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cauã Ferreira Santos | ADS &amp; Dev Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <!-- Barra superior estilo IDE -->
+    <header class="topbar">
+        <div class="topbar-inner">
+            <a href="#topo" class="brand" aria-label="Início">
+                <span class="brand-prompt">~/cauazzin</span>
+                <span class="brand-ext">.dev</span>
+            </a>
+
+            <nav class="nav-links" aria-label="Navegação principal">
+                <a href="#sobre">sobre</a>
+                <a href="#ads">ads &amp; trampos</a>
+                <a href="#projetos">github</a>
+                <a href="#playground">code lab</a>
+                <a href="#contato" class="nav-cta">contato</a>
+            </nav>
+
+            <button type="button" class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="topo">
+        <!-- HERO + JANELA DE CÓDIGO -->
+        <section class="hero section">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <div class="status-pill">
+                        <span class="status-dot"></span>
+                        <span>cursando ADS &bull; Assistente Administrativo</span>
+                    </div>
+
+                    <p class="mono-line"><span class="kw">const</span> dev = <span class="str">"Cauã Ferreira Santos"</span>;</p>
+                    <h1 class="hero-title">
+                        Transformando rotinas e lógica em <span class="gradient-text">código funcional</span>.
+                    </h1>
+                    <p class="hero-desc">
+                        Estudante de <strong>Análise e Desenvolvimento de Sistemas (ADS)</strong> e
+                        <strong>Assistente Administrativo</strong>. Uno organização de processos,
+                        raciocínio analítico e desenvolvimento de software para criar soluções práticas.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projetos" class="btn btn-primary">Ver Projetos no GitHub</a>
+                        <a href="https://www.linkedin.com/in/cau%C3%A3-ferreira-santos-9a82352a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">LinkedIn</a>
+                        <a href="https://github.com/Cauazzin" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">@Cauazzin</a>
+                    </div>
+
+                    <div class="stack-row" aria-label="Tecnologias e focos">
+                        <span class="chip">HTML5 &amp; CSS3</span>
+                        <span class="chip">JavaScript</span>
+                        <span class="chip">Lógica &amp; Algoritmos</span>
+                        <span class="chip">Git &amp; GitHub</span>
+                        <span class="chip">Processos Admin</span>
+                    </div>
+                </div>
+
+                <!-- Card de código sem foto -->
+                <div class="code-card" aria-label="Perfil em formato de código">
+                    <div class="code-header">
+                        <div class="window-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="file-tab">perfil-caua.js</span>
+                        <span class="lang-tag">ADS.profile</span>
+                    </div>
+                    <pre class="code-block"><code><span class="c-comment">// Visão geral do perfil profissional &amp; acadêmico</span>
+<span class="c-kw">export const</span> <span class="c-var">cauaFerreira</span> = {
+  <span class="c-prop">nome</span>: <span class="c-str">"Cauã Ferreira Santos"</span>,
+  <span class="c-prop">curso</span>: <span class="c-str">"Análise e Desenvolvimento de Sistemas"</span>,
+  <span class="c-prop">atuacaoProfissional</span>: <span class="c-str">"Assistente Administrativo"</span>,
+  <span class="c-prop">github</span>: <span class="c-str">"https://github.com/Cauazzin"</span>,
+  <span class="c-prop">foco</span>: [
+    <span class="c-str">"Resolução de problemas"</span>,
+    <span class="c-str">"Desenvolvimento Web &amp; Lógica"</span>,
+    <span class="c-str">"Organização e eficiência"</span>
+  ],
+  <span class="c-fn">disponivelPara</span>() {
+    <span class="c-kw">return</span> <span class="c-str">"Estágios, projetos e oportunidades em TI"</span>;
+  }
+};</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MIM -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-tag">// 01. sobre_mim</span>
+                    <h2>Quem sou e como eu trabalho</h2>
+                </div>
+
+                <div class="about-grid">
+                    <article class="panel">
+                        <h3>O que eu faço</h3>
+                        <p>
+                            Construo aplicações web, páginas interativas e projetos de estudo voltados à
+                            prática de programação. Gosto de pegar ideias simples — como um Linktree ou um
+                            script de automação — e evoluir a arquitetura, a usabilidade e a limpeza do código.
+                        </p>
+                    </article>
+
+                    <article class="panel">
+                        <h3>A ponte entre Admin e TI</h3>
+                        <p>
+                            Trabalhar como <strong>Assistente Administrativo</strong> me ensinou na prática a lidar
+                            com prazos, conferência de dados, documentação, planilhas e comunicação clara.
+                            Na área de tecnologia, isso vira atenção a detalhes, requisito bem levantado e
+                            entrega organizada.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ADS + ASSISTENTE ADMINISTRATIVO -->
+        <section id="ads" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-tag">// 02. formacao_e_atuacao</span>
+                    <h2>Curso de ADS &amp; Rotina Administrativa</h2>
+                </div>
+
+                <div class="dual-cards">
+                    <div class="panel highlight-border">
+                        <div class="panel-top">
+                            <span class="badge badge-cyan">GRADUAÇÃO</span>
+                            <span class="mono-sm">ADS</span>
+                        </div>
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                        <p>
+                            Base sólida em lógica de programação, estruturas de dados, modelagem de sistemas,
+                            banco de dados, engenharia de software e desenvolvimento web.
+                        </p>
+                        <ul class="bullet-list">
+                            <li>Pensamento algorítmico e resolução estruturada de problemas</li>
+                            <li>Versionamento de código com Git e publicação de repositórios no GitHub</li>
+                            <li>Aprendizado contínuo por meio de projetos práticos e testes</li>
+                        </ul>
+                    </div>
+
+                    <div class="panel">
+                        <div class="panel-top">
+                            <span class="badge badge-purple">EXPERIÊNCIA</span>
+                            <span class="mono-sm">ADMIN</span>
+                        </div>
+                        <h3>Assistente Administrativo</h3>
+                        <p>
+                            Atuação no suporte operacional e administrativo do dia a dia, garantindo fluxo
+                            organizado de informações, controle de registros e apoio a processos internos.
+                        </p>
+                        <ul class="bullet-list">
+                            <li>Organização documental, controle de rotinas e atenção minuciosa a dados</li>
+                            <li>Comunicação objetiva entre setores e cumprimento de prazos</li>
+                            <li>Visão prática de onde a tecnologia ajuda a economizar tempo e erro</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETOS DO GITHUB -->
+        <section id="projetos" class="section">
+            <div class="container">
+                <div class="section-head repo-head">
+                    <div>
+                        <span class="section-tag">// 03. github_repositories</span>
+                        <h2>Projetos em <span class="mono-inline">github.com/Cauazzin</span></h2>
+                    </div>
+                    <div class="repo-actions">
+                        <button type="button" class="btn btn-sm btn-ghost" id="syncGithubBtn">Sincronizar GitHub</button>
+                        <a href="https://github.com/Cauazzin?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Todos os Repositórios</a>
+                    </div>
+                </div>
+
+                <p class="section-sub" id="githubStatus">
+                    Carregando repositórios públicos de <strong>@Cauazzin</strong>...
+                </p>
+
+                <div class="repos-grid" id="reposGrid">
+                    <!-- Preenchido via script.js (API do GitHub + fallback dos seus projetos) -->
+                </div>
+            </div>
+        </section>
+
+        <!-- SANDBOX DE CÓDIGO INTERATIVO (TEMÁTICA ADS) -->
+        <section id="playground" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-tag">// 04. code_playground</span>
+                    <h2>Teste rápido de lógica em JavaScript</h2>
+                </div>
+
+                <div class="playground-card">
+                    <div class="playground-toolbar">
+                        <div class="preset-buttons">
+                            <button type="button" class="preset-btn active" data-preset="ads">01_calculo_media_ads.js</button>
+                            <button type="button" class="preset-btn" data-preset="admin">02_fila_atendimento_admin.js</button>
+                            <button type="button" class="preset-btn" data-preset="stack">03_roadmap_dev.js</button>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-primary" id="runCodeBtn">&#9654; Executar Código</button>
+                    </div>
+
+                    <div class="playground-body">
+                        <div class="editor-pane">
+                            <label for="codeEditor" class="pane-label">Editor (JS)</label>
+                            <textarea id="codeEditor" class="code-editor" spellcheck="false"></textarea>
+                        </div>
+                        <div class="console-pane">
+                            <div class="pane-label-row">
+                                <span class="pane-label">Console Output</span>
+                                <button type="button" class="clear-btn" id="clearConsoleBtn">Limpar</button>
+                            </div>
+                            <pre id="consoleOutput" class="console-output">Pronto. Clique em "Executar Código" para rodar o script.</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO NA MESMA PÁGINA -->
+        <section id="contato" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-tag">// 05. contato</span>
+                    <h2>Vamos conversar?</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="panel">
+                        <h3>Canais diretos</h3>
+                        <p>
+                            Quer trocar ideia sobre desenvolvimento, estágio ou vagas na área de TI e
+                            administração? Me chame pelo formulário ou acesse minhas redes:
+                        </p>
+
+                        <div class="direct-links">
+                            <a href="https://www.linkedin.com/in/cau%C3%A3-ferreira-santos-9a82352a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="link-card">
+                                <span class="mono-sm">IN</span>
+                                <div>
+                                    <strong>LinkedIn</strong>
+                                    <small>Cauã Ferreira Santos</small>
+                                </div>
+                                <span class="arrow">&rarr;</span>
+                            </a>
+
+                            <a href="https://github.com/Cauazzin" target="_blank" rel="noopener noreferrer" class="link-card">
+                                <span class="mono-sm">GH</span>
+                                <div>
+                                    <strong>GitHub</strong>
+                                    <small>github.com/Cauazzin</small>
+                                </div>
+                                <span class="arrow">&rarr;</span>
+                            </a>
+
+                            <a href="https://github.com/Cauazzin?tab=repositories" target="_blank" rel="noopener noreferrer" class="link-card">
+                                <span class="mono-sm">RE</span>
+                                <div>
+                                    <strong>Repositórios</strong>
+                                    <small>Ver todos os projetos públicos</small>
+                                </div>
+                                <span class="arrow">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <form class="panel contact-form" id="contactForm">
+                        <h3>Enviar mensagem</h3>
+                        <div class="field">
+                            <label for="nome">Seu nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Ex.: Mariana Silva" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">Seu e-mail</label>
+                            <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required>
+                        </div>
+                        <div class="field">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem, proposta ou dúvida..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p class="mono-sm">&lt;/&gt; Desenvolvido por <strong>Cauã Ferreira Santos</strong> &bull; ADS &amp; Dev</p>
+            <div class="footer-links">
+                <a href="https://github.com/Cauazzin" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/cau%C3%A3-ferreira-santos-9a82352a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="#topo">Topo ↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
